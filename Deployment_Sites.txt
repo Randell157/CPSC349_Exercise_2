@@ -1,0 +1,2 @@
+Github Pages: https://randell157.github.io/CPSC349_Exercise_1/index.html
+Netlify: https://fluffy-meringue-de003b.netlify.app/
