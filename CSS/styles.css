@@ -50,14 +50,24 @@ header a:hover{
     font-weight: bold;
 }
 
-
+.introsummary{
+    text-align: left;
+}
 
 .welcome{
+    border-style:double;
+    border-width: 5px;
+    text-align: center;
     color: red;
 }
 
 .pfp{
     float: left;
+    transition: transform .2s;
+}
+
+.pfp:hover{
+    transform:scale(1.2);
 }
 
 footer{
