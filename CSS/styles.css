@@ -1,5 +1,5 @@
 body{
-    font-family:'Times New Roman', Times, serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 16px;
     line-height: 1.5;
     background-color: rgb(226, 246, 220);
@@ -15,7 +15,7 @@ header{
     position: relative; top: -10px;
     position: relative; left: -10px;
     margin-right: -25px;
-    background: aqua;
+    background: aquamarine;
     color: white;
     padding-top: 10px;
     min-height: 50px;
@@ -23,7 +23,7 @@ header{
     border-bottom: green 5px solid;
 }
 
-header .Name{
+header .name{
     font-size: 20px;
     color: black;
     -webkit-text-stroke-width: 1px;
@@ -43,6 +43,7 @@ header ul{
 header li{
     float: left;
     display: inline;
+    font-size: 20px;
     padding: 0 20px 0 20px;
 }
 
@@ -51,6 +52,22 @@ header a:hover{
     font-weight: bold;
 }
 
+header nav{
+    float: right;
+}
+
+.pfp{
+    float: left;
+}
+
+.maker{
+    float: left;
+}
+
+.email{
+    float: right;
+}
+
 .AboutMeParagraph{
-    background-color: aqua;
+    background-color: aquam;
 }
