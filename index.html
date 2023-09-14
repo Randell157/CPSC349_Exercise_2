@@ -1,19 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Introduction</title>
+    <title>Main Page | Randell Lapid</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="CSS/styles.css" />
   </head>
+
   <body>
-    <h1>Randell Lapid</h1>
-    <p>Welcome to Randell Lapid's website!</p>
-    <figure>
-      <a href="aboutme.html"
-        ><img src="Images/Pfp.jpg" alt="Image of myself" width="200"
-      /></a>
-      <figcaption>That's Me!</figcaption>
-    </figure>
+    <!-- Header Section -->
+    <header>
+      <div class="container">
+        <div class="Name">
+          <h1>Randell Lapid</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section>
+      <div class="container">
+        <h2>Welcome to Randell Lapid's website!</h2>
+        <figure>
+          <a href="aboutme.html"
+            ><img src="Images/Pfp.jpg" alt="Image of myself" width="200"
+          /></a>
+          <figcaption>That's Me!</figcaption>
+        </figure>
+      </div>
+    </section>
 
     <form action="aboutme.html">
       <input type="submit" value="Click image or button to learn more!" />
@@ -26,7 +45,7 @@
         taking a web engineering class.
       </p>
     </details>
-    <hr />
+
     <h2>Interests</h2>
     <p>Here's some of my favorite games:</p>
     <ul>
@@ -55,13 +74,12 @@
       >. <abbr title="MyAnimeList">MAL</abbr>
       should be updated to what I've currently watched up to this point.
     </p>
-    <dialog open>
+    <dialog open class="dialogBox">
       <b
         >Note: I haven't been watching for months but I'd like to watch more
         modern and maybe older anime in the future!</b
       >
     </dialog>
-
     <footer>
       <p>Maker of site: Randell Lapid</p>
       <p>
