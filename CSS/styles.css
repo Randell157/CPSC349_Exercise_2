@@ -2,21 +2,51 @@ body{
     font-family:'Times New Roman', Times, serif;
     font-size: 16px;
     line-height: 1.5;
-    background-color: rgb(202, 248, 202);
+    background-color: rgb(226, 246, 220);
 }
 
 .container{
     width: 90%;
-    height:90%;
     margin: auto;
+    overflow: hidden;
 }
 
+header{
+    background: aqua;
+    color: white;
+    padding-top: 10px;
+    min-height: 50px;
+    border-bottom: green 5px solid;
+}
 
-h1{
-    color: blue; 
-    background-color: aquamarine;
-    padding: 10px;
-} 
+header .Name{
+    font-size: 24PX;
+    -webkit-text-stroke-width: .7px;
+    -webkit-text-stroke-color: black;
+}
+
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header ul{
+    margin:0;
+    padding: 0;
+}
+
+header li{
+    /* float: left; */
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+footer{
+    width: 90%;
+    height:90%;
+    margin: auto;
+    background-color: darkslategrey;
+    color: white;
+}
 
 .AboutMeParagraph{
     background-color: aqua;
