@@ -32,27 +32,28 @@ header .name{
 header a{
     text-decoration: none;
     text-transform: uppercase;
-}
-
-header ul{
-    margin:0;
-    padding: 0;
-}
-
-header li{
     float: left;
-    display: inline;
+    display: block;
+    text-align: center;
     font-size: 20px;
-    padding: 0 20px 0 20px;
+    padding:14px 16px;
+}
+
+header nav{
+    overflow: hidden;
+    background-color:darkseagreen;
 }
 
 header a:hover{
+    background-color: forestgreen;
     color: white;
     font-weight: bold;
 }
 
-header nav{
-    float: right;
+
+
+.welcome{
+    color: red;
 }
 
 .pfp{
