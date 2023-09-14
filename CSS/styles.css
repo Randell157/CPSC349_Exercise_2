@@ -1,14 +1,16 @@
-*{
-    font-family:'Times New Roman', Times, serif
+body{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: rgb(202, 248, 202);
 }
 
-/* Dialog Box */
-.dialogBox{
-    background-color: black;
-    color: white;
-    align-content:center;
-    
+.container{
+    width: 90%;
+    height:90%;
+    margin: auto;
 }
+
 
 h1{
     color: blue; 
