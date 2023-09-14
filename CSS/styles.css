@@ -14,10 +14,9 @@ body{
 header{
     position: relative; top: -10px;
     position: relative; left: -10px;
-    margin-right: -25px;
+    margin-right: -20px;
     background: aquamarine;
     color: white;
-    padding-top: 10px;
     min-height: 50px;
     border-top: green 5px solid;
     border-bottom: green 5px solid;
@@ -60,14 +59,13 @@ header nav{
     float: left;
 }
 
-.maker{
-    float: left;
-}
-
-.email{
-    float: right;
-}
-
-.AboutMeParagraph{
-    background-color: aquam;
+footer{
+    background: cadetblue;
+    padding: 20px;
+    position: relative; bottom: -10px;
+    position: relative; left: -10px;
+    margin-right: -20px;
+    margin-top: 20px;
+    float: inline-end;
+    text-align: center;
 }
