@@ -70,6 +70,33 @@ header a:hover{
     transform:scale(1.2);
 }
 
+/* .gamelist{
+    float: left;
+    text-align: center;
+} */
+
+.gamelist li{
+    display: inline;
+    padding: 20px;
+}
+
+details{
+    display: inline;
+}
+
+.gamelist img{
+    width: 5%;
+}
+
+.gamelist img:hover{
+    transform: scale(1.2);
+}
+
+.gachalist li{
+    display:inline-block;
+    padding: 20px;
+}
+
 footer{
     background: cadetblue;
     padding: 20px;
