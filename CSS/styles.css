@@ -94,7 +94,6 @@ summary{
 .logo{
     max-width: 150px;
     align-items:stretch;
-    height: absolute;
 }
 
 .gamelist li{

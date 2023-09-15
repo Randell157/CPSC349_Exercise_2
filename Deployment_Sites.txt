@@ -1,2 +1,2 @@
-Github Pages: 
-Netlify: 
+Github Pages: https://randell157.github.io/CPSC349_Exercise_2/
+Netlify: https://earnest-queijadas-f9e042.netlify.app
