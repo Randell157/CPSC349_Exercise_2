@@ -66,11 +66,29 @@ header a:hover{
 
 .pfp{
     float: left;
-    transition: transform .2s;
 }
 
-.pfp:hover{
-    transform:scale(1.2);
+.pfp img{
+    max-width: 300px;   
+}
+
+.linkscontainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.linkscontainer div{
+    float: left;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.logo{
+    max-width: 150px;
+    align-items:stretch;
+    height: absolute;
 }
 
 .gamelist li{
@@ -111,6 +129,10 @@ footer{
     header .name, header a, header nav{
         float: none;
         text-align: center;
+        width: 100%;
+    }
+    .linkscontainer, .pfp{
+        justify-content: center;
         width: 100%;
     }
 }

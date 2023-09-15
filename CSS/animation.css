@@ -1,3 +1,15 @@
+.pfp{
+    opacity: 80%;
+}
+
+.pfp:hover{
+    opacity: 100%;
+}
+
+.links{
+    object-fit: cover;
+}
+
 .summary{
     text-transform: uppercase;
     font-weight: bold;
