@@ -75,7 +75,7 @@ header a:hover{
 .linkscontainer{
     display: flex;
     align-items: flex-start;
-    justify-content: flex-start;
+
 }
 .linkscontainer div{
     float: left;
@@ -83,6 +83,7 @@ header a:hover{
     margin-top: 20px;
     margin-left: 20px;
     text-align: center;
+    flex-basis: 10%;
 }
 
 .logo{
