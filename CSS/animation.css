@@ -5,15 +5,64 @@
 .pfp:hover{
     opacity: 80%;
 }
-
-.logo{
-
+header{
+    animation: headerIn 1s;
+}
+@keyframes headerIn {
+    from{
+        transform: translateY(-1000px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+footer{
+    animation: footerIn 3s;
+}
+@keyframes footerIn {
+    from{
+        transform: translateY(1000px);
+    }
+    to{
+        transform: translateY(0px);
+    }
 }
 .logo:hover{
     animation-name: rotate;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+}
+
+.summary{
+    text-transform: uppercase;
+    font-weight: bold;
+    transition-property: transform;
+    transition-duration: .5s;
+    transition-timing-function:ease-out;
+    transition-delay: .1s;
+}
+
+.summary:hover{
+    transform: translatex(20%);
+}
+
+.welcomeSection{
+    animation: loadInAnimation 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes loadInAnimation{
+    0%{
+        transform: translateX(-10000px);
+    }
+    20%{
+        transform: translateX(-3000px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
 }
 @keyframes rotate {
     0%{
@@ -31,18 +80,4 @@
     100%{
         rotate: 0deg;
     }
-}
-
-
-.summary{
-    text-transform: uppercase;
-    font-weight: bold;
-    transition-property: transform;
-    transition-duration: .5s;
-    transition-timing-function:ease-out;
-    transition-delay: .1s;
-}
-
-.summary:hover{
-    transform: translatex(20%);
 }

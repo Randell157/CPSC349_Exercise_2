@@ -57,6 +57,11 @@ header a:hover{
     text-align: left;
 }
 
+summary{
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .welcome{
     border-style:double;
     border-width: 5px;
