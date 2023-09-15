@@ -1,0 +1,12 @@
+.summary{
+    text-transform: uppercase;
+    font-weight: bold;
+    transition-property: transform;
+    transition-duration: .5s;
+    transition-timing-function:ease-out;
+    transition-delay: .1s;
+}
+
+.summary:hover{
+    transform: translatex(20%);
+}
