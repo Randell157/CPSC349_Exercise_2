@@ -1,9 +1,9 @@
 .pfp{
-    opacity: 80%;
+    opacity: 100%;
 }
 
 .pfp:hover{
-    opacity: 100%;
+    opacity: 80%;
 }
 
 .links{
