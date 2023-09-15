@@ -73,11 +73,6 @@ header a:hover{
     transform:scale(1.2);
 }
 
-/* .gamelist{
-    float: left;
-    text-align: center;
-} */
-
 .gamelist li{
     display: inline;
     padding: 20px;
@@ -112,11 +107,10 @@ footer{
 }
 
 
-@media (max-width: 768px) {
-    header .name, header a, header nav nav{
+@media only screen and (max-width: 768px) {
+    header .name, header a, header nav{
         float: none;
         text-align: center;
         width: 100%;
-
     }
 }
